@@ -1,0 +1,179 @@
+#body{
+	background: lightblue;
+	background-image: url('/images/mariocloud.jpg');
+	background-repeat: repeat-x repeat-y;
+	margin-top: 250px;
+}
+
+#wrapper{
+	margin: 0px auto;
+	width: 980px;
+	background: #33ff00;
+	border: 3px solid black;
+	font-weight: bolder;
+	font-family: monospace;
+	border-radius: 15px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+#nav{
+	margin-left: 330px;
+	font-size: x-large;
+}
+
+#nav li{
+	list-style: none;
+	float: left;
+	padding: 15px;
+	margin-bottom: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#nav li:hover{
+	background: red;
+	color: white;
+	border-radius: 15px;
+	border: 2px solid black;
+}
+
+.blackline{
+	height: 3px;
+	color: black; //for IE
+	background-color: black; //Safari & Opera
+	border-width: 0;
+}
+
+#content{
+	padding: 20px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: medium;
+}
+
+#logo{
+	padding-top: 30px;
+	width: 100%;
+	text-align: center;
+	margin: 0px auto;
+	font-size: x-large;
+	font-weight: 900;
+	font-family: cursive;	
+}
+
+#logoText{
+	display: inline-block;
+}
+
+.clear{
+	clear: both;
+}
+
+.login{
+	font-weight: 900;
+	font-size: large;
+	float: right;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.login:hover{
+	background: red;
+	color: white;
+	cursor: pointer;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+#menu{
+	margin-left: 300px;
+	text-align: left;
+}
+
+#menu h1{
+	text-align: left;
+}
+
+#about{
+	text-align: justify;
+}
+
+#order{
+	text-align: left;
+	margin-left: 200px;
+	float: left;
+}
+
+#order input{
+	float: left;
+	text-align: center;
+}
+
+.noshow{
+	display: none;
+}
+
+.show{
+	display: inline;
+	font-family: monospace;
+	color: red;
+	font-weight: 900;	
+}
+
+#SubmitWrapper{
+	float: right;
+}
+
+#AddPizza{
+	font-weight: 900;
+	float: right;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#AddPizza:hover{
+	background: red;
+	color: white;
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+#OrderContinue{
+	font-weight: 900;
+	float: right;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#OrderContinue:hover{
+	background: red;
+	color: white;
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+#about{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.crusttd{
+	padding: 25px;
+}
+
+.toppingtdExtra{
+	padding: 2px;
+	color: red;
+	font-weight: 900;
+	text-align: center;
+}
+
+.toppingtd{
+	padding: 25px;
+}
+
+#total{
+	font-size: xx-large;
+}
